@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/rest/hello")
 public class HelloController {
 
+    // commit을 위한 주석 추가
     @GetMapping
     public String hello() {
         return "Hello World";
